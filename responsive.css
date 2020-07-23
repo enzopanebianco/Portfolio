@@ -1,0 +1,274 @@
+@media (max-width:1450px) {
+    .App .app-box {
+        width: 70%;
+    }
+    .App .app-box .app-text {
+        width: 50%;
+    }
+}
+
+@media (max-width:1000px) {
+    .App {
+        display: flex;
+        height: auto;
+    }
+    .App .app-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 80%;
+        width: 100%;
+    }
+    .App .app-box img {
+        height: 250px;
+    }
+    .App .app-text {
+        display: flex;
+        flex-direction: column;
+        line-height: 15px;
+    }
+    .App .app-text p {
+        font-size: 22px;
+    }
+    .App .app-text strong {
+        font-size: 25px;
+    }
+    .About img {
+        width: 250px;
+    }
+    .Tecs .undrawimg {
+        width: 450px;
+    }
+    .Tecs .tec img {
+        height: 40px;
+    }
+    .top {
+        width: 80%;
+    }
+    .bottom {
+        width: 80%;
+    }
+    .Projects {
+        height: auto;
+    }
+    .Projects .container {
+        width: 50%;
+    }
+    .Projects .project {
+        width: 25%;
+    }
+    .Projects .project button {
+        top: -40px;
+        width: 90%;
+    }
+    .Contact {
+        border-top: 2px solid #f50057;
+    }
+    .Contact img {
+        height: 150px;
+    }
+}
+
+@media (max-width:630px) {
+    .app-box {
+        width: 100vw;
+    }
+    .About {
+        height: auto;
+    }
+    .About h2 {
+        text-align: center;
+    }
+    .About .about-content {
+        flex-direction: column-reverse;
+    }
+    .About .about-content img {
+        width: 200px;
+        margin-top: 20px;
+    }
+    .About .about-content .about-text {
+        width: 100%;
+    }
+    .About .about-content .about-text p {
+        font-size: 13px;
+    }
+    .tooltip {
+        font-size: 12px;
+        width: 200px;
+        margin-left: 10px;
+    }
+    .middle {
+        justify-content: center;
+        width: 80%;
+    }
+    .Tecs {
+        height: 70vh;
+    }
+    .Tecs .undrawimg {
+        width: 300px;
+    }
+    .Contact i {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:500px) {
+    .App {
+        height: 100vh;
+        width: 100%;
+    }
+    .app-box {}
+    .app-text {
+        align-items: flex-start;
+    }
+    .App .app-box img {
+        height: 200px;
+    }
+    .App .app-text p {
+        font-size: 18px;
+        width: 130%;
+    }
+    .App .app-text strong {
+        font-size: 20px;
+    }
+    .App .app-text button {
+        font-size: 14px;
+        padding: 3px 10px 3px 10px;
+    }
+    .Tecs {
+        height: 55vh;
+        justify-content: space-around;
+    }
+    .Tecs .undrawimg {
+        display: none;
+    }
+    #html {
+        transform: translateX(10px) translateY(0px);
+    }
+    #sql {
+        transform: translateX(0px) translateY(0px);
+    }
+    .tec-content {
+        padding: 0px;
+    }
+    .img-tecs {
+        width: 100%;
+    }
+    .img-tecs .tec img {
+        height: 40px;
+    }
+    .top {
+        width: 90%;
+        justify-content: center;
+    }
+    .bottom {
+        justify-content: center;
+        width: 90%;
+    }
+    .middle {
+        justify-content: center;
+        width: 80%;
+    }
+    .tooltip {
+        width: 80px;
+        font-size: 12px;
+    }
+    .Projects .container {
+        width: 80%;
+    }
+    .Projects .project-content {
+        width: 250vw;
+    }
+    .Projects .project {
+        height: 100%;
+        width: 26%;
+    }
+    .Projects .project p {
+        font-size: 13px;
+    }
+    .Projects .project button {
+        top: -20px;
+    }
+    .Projects .project-btn {
+        margin-top: 2vh;
+    }
+    .Contact i {
+        font-size: 26px;
+    }
+    .Contact .contact-icons {
+        width: 80%;
+    }
+    .Contact input {
+        width: 10%;
+    }
+    .Contact span {
+        width: 100px;
+        font-size: 12px;
+    }
+    #emailMsg {
+        transform: translateX(-85px) translateY(-20px);
+    }
+    #telMsg {
+        transform: translateX(-45px) translateY(-20px);
+    }
+}
+
+@media (max-width:375px) {
+    .App {
+        height: 100vh;
+    }
+    .App .app-box {
+        width: 100%;
+        height: 100%;
+        justify-content: space-evenly;
+    }
+    .App img {
+        align-self: center;
+        margin-left: 40px;
+    }
+    .App .app-box p {
+        width: 300px;
+        font-size: 15px;
+        transform: translateX(-50px);
+    }
+    .App .app-box button {
+        transform: translateX(-50px);
+    }
+    .App .app-text {
+        line-height: 5px;
+    }
+    .App .app-box strong {
+        font-size: 20px;
+        width: 80%;
+    }
+    .img-tecs .tec img {
+        height: 50px;
+    }
+    .Projects .container {
+        width: 100%;
+    }
+    .Projects .project-content {
+        width: 320vw;
+    }
+    .Projects .project {
+        width: 80%;
+    }
+    .Contact img {
+        width: 50%;
+    }
+}
+
+@media (max-width:302px) {
+    .App .app-box {}
+    .App .app-text {}
+    .App .app-box strong {
+        font-size: 16px;
+    }
+    .App .app-box strong {
+        font-size: 18px;
+    }
+    .Projects .project .card-text {
+        height: 70%;
+    }
+}
