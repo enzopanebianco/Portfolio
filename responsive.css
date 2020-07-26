@@ -137,7 +137,7 @@
         padding: 3px 10px 3px 10px;
     }
     .Tecs {
-        height: 55vh;
+        height: 65vh;
         justify-content: space-around;
     }
     .Tecs .undrawimg {
@@ -152,23 +152,29 @@
     .tec-content {
         padding: 0px;
     }
-    .img-tecs {
-        width: 100%;
-    }
     .img-tecs .tec img {
-        height: 40px;
+        height: 60px;
     }
     .top {
-        width: 90%;
-        justify-content: center;
+        width: 80%;
+        /* background: #000; */
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+    .tooltip {
+        display: none;
+    }
+    .tec {
+        padding: 0px;
     }
     .bottom {
-        justify-content: center;
-        width: 90%;
+        justify-content: space-between;
+        width: 80%;
     }
     .middle {
-        justify-content: center;
+        justify-content: space-around;
         width: 80%;
+        margin-bottom: 30px;
     }
     .tooltip {
         width: 80px;
